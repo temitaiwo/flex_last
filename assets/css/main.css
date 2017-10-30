@@ -10,6 +10,7 @@
 /*NAVBAR styling starts here*/
 	.nav--dark{
 		background: #222;
+		
 	}
 
 	.nav__list, .nav__list-links{
@@ -30,6 +31,9 @@
 		padding: 15px 10px;
 	}
 /*navbar styling ends here*/
+
+
+/*banner styling begins here*/
 
 .banner{
 	background-image: url('http://via.placeholder.com/1150x350');
@@ -53,3 +57,23 @@
 	font-weight: 900;
 }
 
+/*banner styling ends here*/
+
+.columns__container{
+	margin: 0 auto;
+	max-width: 1011px;
+	width: 100%;
+}
+
+.columns__row, .columns__d-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.columns__column .columns__column100{
+	flex: 0 0 100%;
+}
+
+.columns__column50{
+	flex: 0 0 50%;
+}
